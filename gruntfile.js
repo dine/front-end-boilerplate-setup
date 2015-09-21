@@ -155,7 +155,7 @@ module.exports = function(grunt) {
     // --------------------------------------------------------
     // Minify all CSS and JavaScript.
     // --------------------------------------------------------
-    grunt.registerTask('compile-all', ['analyse-js', 'compile-js', 'compile-requirejs', 'compile-css']);
+    grunt.registerTask('compile-all', ['analyse-js', 'compile-requirejs', 'compile-css']);
 
     // --------------------------------------------------------
     // Complie CSS.
